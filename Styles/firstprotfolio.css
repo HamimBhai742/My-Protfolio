@@ -1,40 +1,48 @@
-.nav{
+.nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 160px;
 }
-nav> ul{
+
+nav>ul {
     display: flex;
     align-items: center;
-  
+
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 51px;
-    
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: #474747;
 }
-.sp{
+
+.sp {
     color: #Fd6E0A
 }
-.nav-titel{
+
+.nav-titel {
     color: rgb(16, 16, 16);
 }
-.nav-ti{
+
+.nav-ti {
     color: #181818;
-  
+
     font-weight: 800;
     font-size: 45px;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.btn-pry{
+
+.btn-pry {
     height: 64px;
     width: 150px;
     border-radius: 5px;
@@ -45,50 +53,184 @@ body{
     font-style: normal;
     border: none;
 }
-.header{
+
+.header {
     background-color: #FFF8F3;
+    background-image: url('../Images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /* height: 300px;
+    width: 500px; */
+    ba
 }
 
-.banner{
+.banner {
     display: flex;
-    padding: 25px 25px 25px 70px;
+    padding: 25px 25px 0 70px;
     align-items: center;
     justify-content: space-between;
 }
-.img{
+
+.img {
     height: 500px;
     width: 400px;
 }
-.banner-greting{
+
+.banner-greting {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
 }
-.banner-titel{
+
+.banner-titel {
     font-size: 85px;
     font-weight: 700;
     margin-top: -50px;
 }
-.p1{
+
+.p1 {
     margin-top: -50px;
 }
-.contain{
+
+.contain {
     max-width: 450px;
 }
-.about{
-    padding: 80px;
-    border-radius: 10px;
+
+.about {
+    padding: 50px;
+    border-radius: 5px;
     background-color: #FFF8F3;
-    margin: 70px 0;
+    margin: 50px 0;
 }
-.about-titel{
+
+.about-titel {
     color: #181818;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
 }
-.about-description{
+
+.about-description {
     color: #474747;
     font-size: 18px;
-    fo
+
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-description {
+    font-weight: bolder;
+    margin-top: -20px;
+}
+
+.what-i-do-titel {
+    text-align: center;
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.what-i-do-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.Codding-container {
+    display: flex;
+}
+
+.Codding {
+    width: 220px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #fffdfd;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    padding: 30px;
+    gap: 20px;
+
+}
+
+.Codding-description {
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+.Codding-titel {
+    color: #181818;
+    text-align: center;
+
+    font-size: 20px;
+
+    font-weight: 700;
+
+}
+
+.experience-titel {
+    text-align: center;
+    color: #181818;
+
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+.experience-colom-titel {
+    color: #000000;
+   
+    font-size: 30px;
+   
+    font-weight: 700;
+  
+}
+.experience-container{
+    display: flex;
+    gap: 60px;
+}
+.experience-skill-titel{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.experience-skill-institute{
+    color:  #757575;
+
+font-size: 20px;
+
+font-weight: 600;
+
+}
+.experience-skill-description{
+    color:  #757575;
+
+font-size: 16px;
+text-align: center;
+font-weight: 400;
+                
 }
