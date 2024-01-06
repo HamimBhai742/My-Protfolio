@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 160px;
 }
 nav> ul{
     display: flex;
@@ -42,4 +44,17 @@ body{
     font-size: 20px;
     font-style: normal;
     border: none;
+}
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    display: flex;
+    padding: 25px 25px 25px 100px;
+    align-items: center;
+}
+.img{
+    height: 500px;
+    width: 400px;
 }
