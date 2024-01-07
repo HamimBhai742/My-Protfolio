@@ -44,7 +44,7 @@ body {
 
 .btn-pry {
     height: 64px;
-    width: 150px;
+    width: 200px;
     border-radius: 5px;
     background-color: #Fd6E0A;
     font-weight: 700;
@@ -61,7 +61,7 @@ body {
     background-position: right bottom;
     /* height: 300px;
     width: 500px; */
-    ba
+
 }
 
 .banner {
@@ -164,7 +164,7 @@ main {
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     text-align: center;
     padding: 30px;
-    gap: 20px;
+    gap: 30px;
 
 }
 
@@ -200,37 +200,111 @@ main {
 
 .experience-colom-titel {
     color: #000000;
-   
+
     font-size: 30px;
-   
+
     font-weight: 700;
-  
+
 }
-.experience-container{
+
+.experience-container {
     display: flex;
-    gap: 60px;
+    gap: 80px;
+    margin-left: 20px;
 }
-.experience-skill-titel{
+
+.experience-skill-titel {
     color: var(--Dark-02, #474747);
-font-family: Open Sans;
-font-size: 25px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Open Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-.experience-skill-institute{
-    color:  #757575;
 
-font-size: 20px;
+.experience-skill-institute {
+    color: #757575;
 
-font-weight: 600;
+    font-size: 20px;
+
+    font-weight: 600;
 
 }
-.experience-skill-description{
-    color:  #757575;
 
-font-size: 16px;
-text-align: center;
-font-weight: 400;
-                
+.experience-skill-description {
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+
+}
+
+#btn-cv {
+    margin: 0 500px;
+}
+
+.footer-container {
+    display: flex;
+    background: #FFF8F3;
+    margin-top: 80px;
+    gap: 200px;
+    padding: 80px 20px;
+
+}
+
+.footer-section {
+    gap: 80px;
+}
+
+
+.footer-titel {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-description {
+    color: #474747;
+    width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-input {
+    border-radius: 5px;
+    background: #FFF;
+    width: 450px;
+    height: 40px;
+    flex-shrink: 0;                       
+    border-color: #FFF;
+    color:  #757575;
+    font-size: 18px;
+    font-weight: 400;
+    border-top-color: #FFF;
+    border: 0;
+   
+}
+
+.footer-input-massage {
+    width: 450px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    border-color: #fff;
+    color:  #757575;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0;
+}
+
+.footer-img{
+    gap: 50px;
+    padding: 20px;
+}
+nav .btn-pry{
+    gap: 20px;
 }
