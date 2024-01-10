@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practise</title>
+    <style>
+        .Container{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 20px;
+        }
+        .Container div{
+         border: 5px solid blueviolet;
+         text-align: center;
+        }
+        img{
+            width: 30%;
+        }
+       @media screen and (max-width:576px) {
+            .Container{
+                grid-template-columns: repeat(1,1fr);
+            }
+       }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="Container">
+            <div>
+                <img src="./Portfolio.png" alt="">
+                  <h3>HAMIM</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa tenetur iusto esse rerum ratione, omnis, optio odit accusamus, in id cum ut aperiam consequatur quia.</p>
+            </div>
+            <div> <img src="./Images/hardy.png" alt="">
+                <h3>DENUE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, sed asperiores molestiae quidem voluptates eveniet unde omnis quasi, distinctio aliquid corporis cupiditate nobis laudantium quis nostrum similique atque aperiam excepturi fugit, suscipit ullam?</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
