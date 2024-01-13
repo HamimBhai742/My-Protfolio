@@ -153,6 +153,7 @@ main {
 
 .Codding-container {
     display: flex;
+    gap: 20px;
 }
 
 .Codding {
@@ -160,11 +161,11 @@ main {
     height: 320px;
     flex-shrink: 0;
     border-radius: 5px;
-    background: #fffdfd;
+    background: #fdfcfc;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     text-align: center;
     padding: 30px;
-    gap: 30px;
+    /* gap: 30px; */
 
 }
 
@@ -190,8 +191,6 @@ main {
 .experience-titel {
     text-align: center;
     color: #181818;
-
-
     font-size: 35px;
 
     font-weight: 700;
@@ -278,14 +277,14 @@ main {
     background: #FFF;
     width: 450px;
     height: 40px;
-    flex-shrink: 0;                       
+    flex-shrink: 0;
     border-color: #FFF;
-    color:  #757575;
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     border-top-color: #FFF;
     border: 0;
-   
+
 }
 
 .footer-input-massage {
@@ -295,16 +294,71 @@ main {
     border-radius: 5px;
     background: #FFF;
     border-color: #fff;
-    color:  #757575;
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     border: 0;
 }
 
-.footer-img{
+.footer-img {
     gap: 50px;
     padding: 20px;
 }
-nav .btn-pry{
+
+nav .btn-pry {
     gap: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .header {
+ background-image: none;
+    }
+    .nav,
+    .banner,
+    .Codding-container,
+    .experience-container,
+    .footer-container,
+    .about-info-container {
+        flex-direction: column;
+
+    }
+
+    .Codding {
+        margin: 10px auto;
+    }
+
+    #btn-cv {
+        margin: 30px 100px;
+    }
+
+    .footer-container {
+        margin-top: 10px;
+        gap: 40px;
+        padding: 30px 5px;
+        width: 100%;
+       
+    }
+
+    .footer-description {
+        color: #474747;
+        width: 400px;
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        margin-left: 60px;
+    }
+    .ft-img{
+        margin-left: 150px;
+    }
+    .about{
+        padding: 10px;
+        margin: 0;
+    }
+    .about-description{
+        padding: 15px;
+    }
 }
